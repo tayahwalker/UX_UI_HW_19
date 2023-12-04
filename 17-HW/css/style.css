@@ -1,0 +1,51 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 5%;
+    padding: 1%;
+}
+
+.nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#C3D9AD;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: 0;
+    padding: 15px 15px;
+
+}
+
+li:hover {
+    background-color: #738F57;
+}
+
+.heroImg{ 
+    height: 600px;
+    padding: 25px;
+}
+
+.content{
+    width: 50px;
+    margin: 0 auto;
+}
+
+ul.footer{
+   background-color: #C3D9AD; 
+   display: inline-block;
+   vertical-align: top;
+   
+
+}
