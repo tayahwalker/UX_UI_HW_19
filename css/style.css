@@ -1,0 +1,22 @@
+button{
+    width: fit-content;
+    border-style: groove;
+    border-color: #3D3D3D;
+    border-width: 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 100;
+    background-color: #50633E;
+    padding: 1%;
+    font-family: avenir;
+}
+ p{
+    font-family: avenir;
+    width: fit-content;
+    text-align: center;
+ }
+
+ .signature{
+    width: 130px;
+    justify-content: flex-end;
+ }

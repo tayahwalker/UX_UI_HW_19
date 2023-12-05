@@ -9,7 +9,6 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-   
     <header class="navigation">
         <img class=logo src="images/Logo.png">
         <nav class="inline-block">
@@ -22,6 +21,9 @@
         </nav>
         <section class="heroImg">
             <img src="images/mock ups.png">
+            <br>
+            <button onclick="scrollFunction1()"> View Selected Projects </button>
+            <br>
             <p>I’m a freelance UX/UI designer. I received a B.S. in Biology prior to discovering the UX/UI field. So I enjoy solving user problems
                 through analyzing user research.
                 
@@ -29,7 +31,7 @@
                 
                 I specialize in creating attentive human centered designs backed by user research and focus on accessibility and inclusivity.
             </p>
-            <img src="images/Modern Signature.png">
+            <img class="signature" src="images/Modern Signature.png">
         </section>
         
     </header>
@@ -42,7 +44,23 @@
     </section>
 
     <section>
-        <h1>Selected Projects</h1>
+        <body>
+            <div>
+              <div id="SelectedProjects">
+                <div id="SP">
+                  <h1>Selected Projects</h1> </div>
+            </div>
+            <script>
+              function scrollFunction1() {
+                let e = document.getElementById("SP");
+                e.scrollIntoView({
+                  block: 'start',
+                  behavior: 'smooth',
+                  inline: 'start'
+                });
+              }
+            </script>
+          </body>
         <div class="workGrid">
             <div>
                 <img class="project1" src="/images/project 1.png">
@@ -64,8 +82,6 @@
                 <div class="button">full case study</div>
             </div>
         </div>
-       
-       <h3>View All Projects</h3>
 
     </section>
 
