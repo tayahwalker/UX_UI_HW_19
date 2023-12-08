@@ -20,7 +20,3 @@ button{
     width: 130px;
     justify-content: flex-end;
  }
-
-li{
-   justify-content: stretch;
- }
