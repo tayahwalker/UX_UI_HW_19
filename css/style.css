@@ -5,7 +5,7 @@
 }
 
 .logo {
-   width: 5%;
+   width: 4%;
    padding: 1%;
 }
 
@@ -51,6 +51,12 @@ ul.footer{
 
 }
 
+.navigation{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
 /*Week 18 CSS*/
 .flexContainer{
    display: flex;
@@ -79,6 +85,10 @@ img{
    justify-content: center; 
    margin: 0%;
    padding: 0%
+}
+
+.workGrid-Item{
+   margin: 0 auto;
 }
 
 div{
