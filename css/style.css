@@ -1,3 +1,115 @@
+/*Week 17 CSS*/
+.inline-block {
+   display: inline-block;
+   vertical-align: top;
+}
+
+.logo {
+   width: 5%;
+   padding: 1%;
+}
+
+.nav {
+   width: 73%;
+   padding: 1%;
+}
+
+ul {
+   list-style-type: none;
+   overflow: hidden;
+   background-color:#C3D9AD;
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   float: left;
+   margin: 0;
+   padding: 15px 15px;
+
+}
+
+li:hover {
+   background-color: #738F57;
+}
+
+.heroImg{ 
+   height: 600px;
+   padding: 25px;
+}
+
+.content{
+   width: 50px;
+   margin: 0 auto;
+}
+
+ul.footer{
+  background-color: #C3D9AD; 
+  display: inline-block;
+  vertical-align: top;
+  
+
+}
+
+/*Week 18 CSS*/
+.flexContainer{
+   display: flex;
+   justify-content: center;
+}
+h1{
+   font-family: clash display;
+   font-weight: 400;
+   text-align: center;
+   font-display: auto;
+}
+
+img{
+   max-width: 70%;
+   max-height: 70%;
+   margin: 0%;
+}
+
+.workGrid{
+   display: grid;
+   grid-template-rows: 50% 50%;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: 
+   "prject1 project2"
+   "project3 project4";
+   justify-content: center; 
+   margin: 0%;
+   padding: 0%
+}
+
+div{
+   font-family: avenir; 
+}
+
+.button{
+   width: fit-content;
+   border-style: groove;
+   border-color: #3D3D3D;
+   border-width: 1px;
+   border-radius: 10px;
+   color: white;
+   font-weight: 100;
+   background-color: #50633E;
+   padding: 1%;
+   
+
+}
+
+h3{
+   font-family: archivo, avenir;
+   font-weight: 200;
+}
+
+#wordCloud{
+   max-width: 100%;
+   max-height: fit-content;
+}
+
+/*Week 19 CSS*/
 button{
     width: fit-content;
     border-style: groove;
@@ -20,3 +132,25 @@ button{
     width: 130px;
     justify-content: flex-end;
  }
+
+ /*Media Querey Week 18*/
+
+@media only screen and (max-width: 600px){
+   .flexContainer{
+       display: flex;
+       justify-content: center;  
+     }
+     .workGrid{
+       display: grid;
+       grid-template-rows: 2fr;
+       grid-template-columns: 2fr;
+       grid-template-areas: 
+       "project1" 
+       "project2"
+       "project3" 
+       "project4";
+       justify-content: center; 
+       margin: 0%;
+       padding: 0%
+     }
+   }
